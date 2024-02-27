@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onFailure(Call<Utilisateur> call, Throwable t) {
-
+                        Log.i("RETROFIT", t.getMessage());
                     }
                 });
             }
